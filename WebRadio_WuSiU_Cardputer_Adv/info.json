@@ -1,0 +1,9 @@
+{
+  "name": "WebRadio_WuSiU - Cardputer Adv",
+  "version": "1.0.0",
+  "description": "Advanced Internet Web Radio for M5Stack Cardputer Adv",
+  "author": "WuSiU",
+  "chip": "ESP32-S3",
+  "board": "M5Stack Cardputer Adv",
+  "repository": "https://github.com/wusiu/WebRadio_WuSiU_Cardputer_Adv"
+}
