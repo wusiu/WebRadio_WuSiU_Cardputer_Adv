@@ -54,6 +54,34 @@ To reset stored Wi-Fi credentials:
 
 ---
 
+## ⚙️ Arduino IDE Configuration
+
+Before compiling and uploading the firmware, make sure the correct board and partition scheme are selected in Arduino IDE.
+
+---
+
+### 🧩 Select Board
+
+Choose the correct board for Cardputer:
+
+**M5Cardputer**
+
+![Board_selection](images/board.jpg)
+
+---
+
+### 💾 Partition Scheme
+
+Set the partition scheme to:
+
+**Huge APP (3MB No OTA / 1MB SPIFFS)**
+
+This is required to fit the web radio application in flash memory.
+
+![Partition scheme](images/partition%20scheme.jpg)
+
+---
+
 ## 👤 Author
 
 **WuSiU**
@@ -66,5 +94,6 @@ MIT License
 
 Based on the original project:
 https://github.com/cyberwisk/M5Cardputer_WebRadio
+
 
 Original author: cyberwisk
