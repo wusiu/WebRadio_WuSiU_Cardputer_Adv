@@ -1,0 +1,5 @@
+MELORADIO,http://ml01.cdn.eurozet.pl/mel-net.mp3
+Radio Bielsko,http://stream.rcs.revma.com/062uq3z3kwzuv
+RMF MAXXX,http://rs202-krk-cyfronet.rmfstream.pl/rmf_maxxx?aw_0_1st.playerid=RMF_TuneIn&skey=1616600473
+RMF FM,http://rmfstream1.interia.pl:80/rmf_fm
+RMF24.pl,http://rmfstream1.interia.pl:80/rmf_24
