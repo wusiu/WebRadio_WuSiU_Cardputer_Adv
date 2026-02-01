@@ -6,6 +6,38 @@ An advanced internet radio for **M5Stack Cardputer Adv** with SD card station li
 
 ---
 
+## 🔥 Flashing / Installation
+
+This firmware **must be flashed using the provided `.bin` file**.
+
+### ✅ Recommended method (WORKING)
+Use a dedicated ESP32 flashing tool or launcher that flashes the binary **without modifying the partition table**.
+
+#### Steps:
+1. Download the `.bin` file from the **Releases** section.
+2. Connect the M5Stack Cardputer via USB.
+3. Flash the firmware using:
+   - launcher
+   - esptool
+   - or any tool that supports direct `.bin` flashing
+4. After flashing, reboot the device.
+
+This method is required because the firmware uses a **custom partition scheme (Huge APP)**.
+
+---
+
+### ❌ M5Burner (NOT SUPPORTED)
+Flashing this firmware using **M5Burner is NOT supported**.
+
+M5Burner may overwrite the partition table or use a default layout that is incompatible with this project, which can result in:
+- the application not starting
+- boot loops
+- black screen or crashes
+
+Please use the recommended flashing method above.
+
+---
+
 ## 📻 Radio Station List
 
 The list of radio stations is stored in a text file: **station_list.txt**
@@ -99,6 +131,7 @@ https://github.com/cyberwisk/M5Cardputer_WebRadio
 
 
 Original author: cyberwisk
+
 
 
 
