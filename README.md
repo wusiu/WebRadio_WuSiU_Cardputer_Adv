@@ -2,6 +2,8 @@
 
 An advanced internet radio for **M5Stack Cardputer Adv** with SD card station list support, Wi-Fi memory, and additional audio features.
 
+![Cardputer ADV WebRadio – running](images/WebRadio.jpg)
+
 ---
 
 ## 📻 Radio Station List
@@ -74,6 +76,34 @@ To reset stored Wi-Fi credentials:
 
 ---
 
+## ⚙️ Arduino IDE Configuration
+
+Before compiling and uploading the firmware, make sure the correct board and partition scheme are selected in Arduino IDE.
+
+---
+
+### 🧩 Select Board
+
+Choose the correct board for Cardputer:
+
+**M5Cardputer**
+
+![Board_selection](images/board.jpg)
+
+---
+
+### 💾 Partition Scheme
+
+Set the partition scheme to:
+
+**Huge APP (3MB No OTA / 1MB SPIFFS)**
+
+This is required to fit the web radio application in flash memory.
+
+![Partition scheme](images/partition_scheme.jpg)
+
+---
+
 ## 👤 Author
 
 **WuSiU**
@@ -88,3 +118,4 @@ Based on the original project:
 https://github.com/cyberwisk/M5Cardputer_WebRadio
 
 Original author: cyberwisk
+
